@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Study01"
         tools:targetApi="31">
         <activity
+            android:name=".ExplicitIntentActivity_02"
+            android:exported="false" />
+        <activity
+            android:name=".ExplicitIntentActivity_01"
+            android:exported="false" />
+        <activity
+            android:name=".SuggestiveIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExplicitIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BundleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
